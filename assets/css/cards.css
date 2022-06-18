@@ -1,0 +1,110 @@
+.card_outer{
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    background-color:#7B241C;
+    border-top: 7px #7B241C solid;
+    margin: 5px 0 5px 0;
+    display: flex;
+    grid-template-columns: 30% 70%;
+}
+.card_outer_{
+
+    height: 200px;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    background-color:#ffffff;
+    /* border-top: 7px #3f3838 solid; */
+    margin: 5px 0 25px 0;
+    text-align: left;
+    transition: all 0.5s ease;
+    color: #ffffff;
+
+
+}
+.card_outer_ :hover{
+
+    height: 300px;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    background-color:#ffffff;
+    /* border-top: 7px #3f3838 solid; */
+    margin: 5px 0 25px 0;
+    text-align: left;
+
+
+
+}
+.middle{
+    background-color: #1AB29B ;
+    border-top: 7px #1AB29B solid;
+
+}
+.justify{
+    justify-content: left;
+    text-align: left;padding: 15px;
+    align-items: left;
+
+}
+.justify img{
+    margin-right: 15px;
+}
+.third_{
+    
+    background-color: #ffffff;
+    border-top: 7px #ffffff solid;
+
+
+}
+.projects{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+.up_image{
+    background: url('../images/inventory.PNG');
+    height: 300px;
+    width: 100%;
+}
+.third_ .description p{
+    
+    background-color: #ffffff;
+    color: #7B241C;
+    font-weight: bolder;
+
+
+}
+.third{
+    
+    background-color: #455A64;
+    border-top: 7px #455A64 solid;
+
+}
+.knowledge{
+    height: 200px;
+}
+
+.visit{
+    border: solid 1px #7B241C;
+    border-radius:50px;
+    color: #7B241C;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    background-color: white;
+}
+.black{
+    color: #455A64 !important;
+}
+.background{
+    background-image: url('../images/inventory.PNG');
+    height: 300px;
+    background-size: contain;
+}
+.gallery{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+
+}
