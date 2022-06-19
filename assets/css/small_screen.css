@@ -299,7 +299,10 @@ nav {
 
 .logo {
     height: 30px;
-
+    transition: all 0.5s ease;
+}
+.logo:hover {
+    height: 40px;
 }
 
 nav>.nav_left .logo {
@@ -329,7 +332,6 @@ nav>.nav_right .logo {
 .white- {
     color: white;
     font-size: 10px;
-    color: #7B241C !important;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin: 10%;
     width: 100%;
@@ -436,7 +438,7 @@ nav>.nav_right .logo {
     width: 50%;
     /* border: 1px solid #7B241C; */
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease-in-out;
 
     text-align: center;
@@ -449,7 +451,13 @@ nav>.nav_right .logo {
 .name_input :focus {
     border: none;
 }
-
+.unlock{
+    height: 40px;
+    transition: 0.2s all ease-in;
+}
+.unlock:hover{
+    height: 50px;
+}
 #final {
     background-image: url('../images/ceemony.gif');
     background-repeat: no-repeat;
@@ -463,8 +471,8 @@ nav>.nav_right .logo {
     justify-content: center;
     text-align: center;
     background-color: #7B241C;
-    border-top-right-radius: 70px;
-    border-bottom-right-radius: 70px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-image: url(../images/protruding.svg);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     padding-top: 5%;
@@ -528,3 +536,6 @@ hr {
     padding: 10px;
     margin: 10px;
 }
+
+
+/* ANIMATIONS */

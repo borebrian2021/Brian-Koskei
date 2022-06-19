@@ -120,6 +120,43 @@ $(document).ready(function () {
 
 
   //HANDLING FORM SUBMIT AND AVOIDING PAGE RELOADING
+  $('#education').hide();
+  $('#skills').hide();
+  $('#projects').hide();
+  $('#gallery').hide();
+
+
+
+  $("#unlock").animate({
+    top: $(this).offset().top -27
+  }, 1000, function() {
+  });
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   $(document).on('submit', '#my-form', function () {
     playerName = $('#name_input').val();
@@ -174,6 +211,9 @@ $(document).on('submit', '#questions', function () {
   console.log(marks);
   return false;
 });
+
+//==============================================================================================================================================
+
 
 
 
