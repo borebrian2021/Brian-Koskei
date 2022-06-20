@@ -112,18 +112,33 @@
     background: url('/assets/images/gallery3.jpg');
 
 }
+
 .c2{
     background: url('/assets/images/gallery4.jpg');
+
+}
+
+.c3{
+    background: url('/assets/images/old.png');
+
+}
+.c4{
+    background: url('/assets/images/old2.jpg');
+
+}
+.c5{
+    background: url('/assets/images/snow.jpg');
 
 }
 .container {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 95%;
     height: 400px;
     position: relative;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+    margin: 13px;
   }
   .container .container__info {
     position: absolute;
