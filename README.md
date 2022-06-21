@@ -1,10 +1,9 @@
-# Quiz Board
+# Portfolio
 ## By Brian Kimutai Koskei
 ## Screenshot
- ![image](./assets/images/screenshort.png)
+ ![image](./assets/images/landing.png)
  ## Table of Content
- - [Description](#description)
- - [Landing Page](#Landing-Page)
+ - [LandingPage](#Landing-page)
  - [Instructions](#Instructions)
  - [Requirement](#Requirements)
 
@@ -39,8 +38,8 @@ This page gives the instructions of the test.
  [Go Back to the top](#Screenshot)
 ### Live Link
 - Click this link to view the live application https://borebrian2021.github.io/Moringa-Quiz-Project-Javascript/
-### Figma Link
-- Click this link to view the figma design of this project https://www.figma.com/file/MYat56ANGYAA2FQpkcapnx/Untitled?node-id=0%3A1
+<!-- ### Figma Link
+- Click this link to view the figma design of this project https://www.figma.com/file/MYat56ANGYAA2FQpkcapnx/Untitled?node-id=0%3A1 -->
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * VANILLA CSS - which was used to style the User Interface.

@@ -13,35 +13,35 @@ $(document).ready(function () {
   $('#aboutMe').hide();
 
 
-  $('.unlock').click(function() {
-   
+  $('.unlock').click(function () {
+
     showEducation();
-    
+
   });
-  $('#goBack1').click(function() {
-   
+  $('#goBack1').click(function () {
+
     goHome()
-      
-    });
+
+  });
 
 
-    $('#next1').click(function() {
-   
-      gotoEducation()
-      });
-      $('#next2').click(function() {
-   
-        gotoSkills()
-        });
-        $('#goBack2').click(function() {
-   
-          goHome()
-            
-          });
+  $('#next1').click(function () {
+
+    gotoEducation()
+  });
+  $('#next2').click(function () {
+
+    gotoSkills()
+  });
+  $('#goBack2').click(function () {
+
+    goHome()
+
+  });
 
 });
 
-function gotoHome(){
+function gotoHome() {
   $('#love').fadeOut();
   setTimeout(() => {
     $('#welcome').fadeIn();
@@ -54,22 +54,22 @@ function gotoHome(){
   $('#gallery').hide();
 
 }
-  function showEducation(){
-    $('#welcome').fadeOut();
-    setTimeout(() => {
-      $('#aboutMe').fadeIn();
+function showEducation() {
+  $('#welcome').fadeOut();
+  setTimeout(() => {
+    $('#aboutMe').fadeIn();
 
-  
-    }, "1000");
-    $('#education').hide();
-    $('#skills').hide();
-    $('#projects').hide();
-    $('#gallery').hide();
+
+  }, "1000");
+  $('#education').hide();
+  $('#skills').hide();
+  $('#projects').hide();
+  $('#gallery').hide();
   $('#love').fadeOut();
 
-  
+
 }
-function goHome(){
+function goHome() {
   $('#aboutMe').fadeOut();
   setTimeout(() => {
     $('#welcome').fadeIn();
@@ -84,7 +84,7 @@ function goHome(){
 
 
 }
-function goToAboutMe(){
+function goToAboutMe() {
   $('#aboutMe').fadeOut();
   setTimeout(() => {
     $('#welcome').fadeIn();
@@ -100,7 +100,7 @@ function goToAboutMe(){
 
 }
 
-function gotoEducation(){
+function gotoEducation() {
   $('#aboutMe').fadeOut();
   $('#skills').fadeOut();
   $('#projects').fadeOut();
@@ -114,7 +114,7 @@ function gotoEducation(){
 
   }, "1000");
 }
-function gotoLove(){
+function gotoLove() {
   $('#aboutMe').fadeOut();
   $('#skills').fadeOut();
   $('#education').fadeOut();
@@ -126,7 +126,7 @@ function gotoLove(){
     $('#love').fadeIn();
   }, "1000");
 }
-function gotoSkills(){
+function gotoSkills() {
   $('#aboutMe').fadeOut();
   $('#education').hide();
   $('#projects').fadeOut();
@@ -138,12 +138,12 @@ function gotoSkills(){
 
 
   }, "1000");
-  
- 
+
+
 
 
 }
-function gotoGallery(){
+function gotoGallery() {
   $('#aboutMe').fadeOut();
   $('#education').hide();
   $('#projects').fadeOut();
@@ -157,7 +157,7 @@ function gotoGallery(){
 
 
 
- 
+
 
 
 
@@ -202,13 +202,13 @@ $(document).on('submit', '#questions', function () {
 
 
 
-$(document).ready(function(){
-  $('.title').click(function(){
+$(document).ready(function () {
+  $('.title').click(function () {
     $('.container').addClass('open');
   });
-  
-  
-  $('.close').click(function(){
+
+
+  $('.close').click(function () {
     $('.container').removeClass('open');
   });
 });
@@ -219,21 +219,21 @@ var target = document.getElementsByClassName('loveBig')[0];
 var button = document.getElementById('animLove');
 var xT = target.offsetLeft;
 var yT = target.offsetTop;
-button.addEventListener('click', function() {
+button.addEventListener('click', function () {
   // for (var i = 0; i < 100; i++) {
-    // // store the elements coordinate
-    // var xE = element.offsetLeft;
-    // var yE = element.offsetTop;
-    // alert(yE)
-    // // set elements position to their position for smooth animation
-    // element.style.left = xE + 'px';
-    // element.style.top = yE + 'px';
-    // // set their position to the target position
-    // // the animation is a simple css transition
-    // element.style.display = "absolute";
-    // element.style.left = xT + 'px !important';
+  // // store the elements coordinate
+  // var xE = element.offsetLeft;
+  // var yE = element.offsetTop;
+  // alert(yE)
+  // // set elements position to their position for smooth animation
+  // element.style.left = xE + 'px';
+  // element.style.top = yE + 'px';
+  // // set their position to the target position
+  // // the animation is a simple css transition
+  // element.style.display = "absolute";
+  // element.style.left = xT + 'px !important';
 
-    // element.style.top = yT + 'px !important';
+  // element.style.top = yT + 'px !important';
   // }
   jQuery("#loved").clone().appendTo('.loveBig')
 });
