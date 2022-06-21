@@ -68,4 +68,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](#Screenshot)
 ## Authors Info
-Linkedin - [Brain Koskei Kimutai](https://www.linkedin.com/in/bore-brian-5655b814b/)
+Linkedin - [Brian Koskei Kimutai](https://www.linkedin.com/in/bore-brian-5655b814b/)

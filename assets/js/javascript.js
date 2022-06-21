@@ -43,6 +43,8 @@ $(document).ready(function () {
 
 function gotoHome() {
   $('#love').fadeOut();
+  $('#aboutMe').fadeOut();
+
   setTimeout(() => {
     $('#welcome').fadeIn();
 

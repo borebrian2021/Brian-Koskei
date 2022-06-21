@@ -283,15 +283,21 @@ nav {
     height: 50px;
     width: 100%;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 
 }
-
+.pointMe{
+    cursor:pointer;
+}
 .nav_left {
     text-align: left;
     align-items: left;
 }
-
+.logo_{
+    height: 70px;
+    width: 70px;
+}
 .nav_right {
     text-align: right;
     align-items: right;
@@ -307,19 +313,21 @@ nav {
 
 .logo {
     height: 30px;
-    transition: all 0.5s ease;
+    width: 30px;
+
+    transition: all 0.1s ease-in;
 }
 .logo:hover {
     height: 40px;
+    width: 40px;
+
 }
 
-nav>.nav_left .logo {
+/* nav>.nav_left .logo {
     height: 30px;
-}
+} */
 
-nav>.nav_right .logo {
-    height: 20px;
-}
+
 
 .buttons {
     border: none;
