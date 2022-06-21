@@ -25,7 +25,7 @@
     <nav>
         <div class="nav_left">
             <!-- <img class="logo" src="./assets/images/logo.png"> &nbsp; -->
-            <small class="white" id="name">Brian Koskei | Software Engineer</small>
+            <small class="white" onclick="gotoHome()" id="name">Brian Koskei | Frontend Developer</small>
         </div>
         <div class="nav_right">
 
@@ -40,21 +40,21 @@
             <p class="white" id="name"></p>
         </div>
 
-    </nav
-    <!-- Section 1 -->
-    <div class="container-fluid mt-3 ml-0 pl-0 "  id="welcome">
+    </nav <!-- Section 1 -->
+    <div class="container-fluid mt-3 ml-0 pl-0 " id="welcome">
         <div class="row">
             <div class="col-lg-6 col-sm-6 col-12 ">
                 <div class="block">
                     <div class="">
-                
 
-<!-- 
+
+                        <!-- 
                         <small class="white-">Brian Kimutai Koskei</small><br>
                         <small class="white-">0712035642</small><br>
                         <small class="white-">bkimutai2021@gmail.com</small><br>
                         <small class="white-">Nairobi Ngong Road</small><br> -->
-                        <div class="image_section"> <img class="welcome" src="./assets/images/welcome_image.png" /></div>
+                        <div class="image_section"> <img class="welcome" src="./assets/images/welcome_image.png" />
+                        </div>
 
 
                     </div>
@@ -74,8 +74,8 @@
 
                     <form id="my-form">
                         <!-- <input class="name_input" id="name_input" required placeholder="Enter name here" /><br> -->
-                       <img class="unlock" src="./assets/images/padlock_unlocked.png"><br/>
-                       <small class="white" >Click me to proceed</small>
+                        <img class="unlock" src="./assets/images/padlock_unlocked.png"><br />
+                        <small class="white">Click me to proceed</small>
                     </form>
                 </div>
             </div>
@@ -95,7 +95,8 @@
                             About me
                             <br /><br />
 
-                            <h6 class="white">I am a gifted individual. I successfully completed the 8.4.4 system. In addition, I
+                            <h6 class="white">I am a gifted individual. I successfully completed the 8.4.4 system. In
+                                addition, I
                                 am extending my education in order to improve and even deliver the finest possible
                                 outcomes for my industry. Working with computers is something you've done before. I am a
                                 well-organized human who enjoys solving problems. Graphics Designing, chess, music, and
@@ -118,22 +119,26 @@
                     <div class="navigation">
                         <button class="nav_buttons"><i class="fa fa-user white"></i></button>
 
-                        <button class="nav_buttons_"><i class="fa fa-graduation-cap"></i></button>
-                        <button class="nav_buttons_">
-
-                            <i class="fa fa-globe"></i>
-                        </button>
-                        <button class="nav_buttons_">
+                        <button class="nav_buttons_"><i onclick="gotoEducation()"
+                                class="fa fa-graduation-cap"></i></button>
+                        <button class="nav_buttons_" onclick="gotoSkills()">
                             <i class="fa fa-th-large"></i>
                         </button>
-                        <button class="nav_buttons_">
+                       
+                        <button class="nav_buttons_" onclick="gotoGallery()">
+
+
+                            <i class="fa fa-picture-o"></i>
+                        </button>
+                        <button class="nav_buttons_" onclick="gotoLove()">
 
                             <i class="fa fa-heart"></i>
                         </button>
 
 
                     </div>
-                    <button class="left_attached " id="goBack1" ><img src="./assets/images/left_iccon.png" /></button>
+                    <button class="left_attached  " onclick="gotoHome()" id="goBack1"><img
+                            src="./assets/images/home.png" /></button>
                     <button class="right_attached " id="next1"><img src="./assets/images/right_iccon.png" /></button>
                     <!-- <hr/> -->
                 </div>
@@ -248,24 +253,29 @@
 
                     </div>
                     <div class="navigation">
-                        <button class="nav_buttons_"><i class="fa fa-user "></i></button>
+                        <button class="nav_buttons_" onclick="goToAboutMe()"><i class="fa fa-user white"></i></button>
 
-                        <button class="nav_buttons"><i class="fa fa-graduation-cap"></i></button>
-                        <button class="nav_buttons_">
+                        <button class="nav_buttons" onclick="gotoEducation()">
+                            <i  class="fa fa-graduation-cap"></i></button>
+                        <button class="nav_buttons_" onclick="gotoSkills()">
 
-                            <i class="fa fa-globe"></i>
-                        </button>
-                        <button class="nav_buttons_">
                             <i class="fa fa-th-large"></i>
                         </button>
-                        <button class="nav_buttons_">
+                      
+                        
+                        <button class="nav_buttons_" onclick="gotoGallery()">
+
+                           	
+<i class="fa fa-picture-o"></i>
+                        </button>
+                        <button class="nav_buttons_" onclick="gotoLove()">
 
                             <i class="fa fa-heart"></i>
                         </button>
 
 
                     </div>
-                    <button class="left_attached " id="goBack2" ><img src="./assets/images/left_iccon.png" /></button>
+                    <button class="left_attached " onclick="goToAboutMe()" id="goBack2"><img src="./assets/images/left_iccon.png" /></button>
                     <button class="right_attached " id="next2"><img src="./assets/images/right_iccon.png" /></button>
                     <!-- <hr/> -->
                 </div>
@@ -294,12 +304,12 @@
                                     <div class="card_outer third justify">
                                         <div class="extra" onmouseover="chbg('red')">
 
-                                        <img src="./assets/images/html.png" class="grad" />
+                                            <img src="./assets/images/html.png" class="grad" />
 
-                                
-                                        <div class="description">
-                                            <p class="p_f">HTML</p>
-                                            <p class="p_s">99%</p>
+
+                                            <div class="description">
+                                                <p class="p_f">HTML</p>
+                                                <p class="p_s">99%</p>
 
                                             </div>
                                         </div>
@@ -310,12 +320,12 @@
                                     <div class="card_outer third justify">
                                         <div class="extra">
 
-                                        <img src="./assets/images/vue.png" class="grad" />
+                                            <img src="./assets/images/vue.png" class="grad" />
 
-                                
-                                        <div class="description">
-                                            <p class="p_f">Vue JS</p>
-                                            <p class="p_s">70%</p>
+
+                                            <div class="description">
+                                                <p class="p_f">Vue JS</p>
+                                                <p class="p_s">70%</p>
                                             </div>
 
                                         </div>
@@ -326,30 +336,12 @@
                                     <div class="card_outer third justify">
                                         <div class="extra">
 
-                                        <img src="./assets/images/javascript.png" class="grad" />
+                                            <img src="./assets/images/javascript.png" class="grad" />
 
-                                
-                                        <div class="description">
-                                            <p class="p_f">Vanila JS</p>
-                                            <p class="p_f">95%</p>
 
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-4 col-12">
-                                    <div class="card_outer third justify">
-                                        <div class="extra">
-
-                                        <img src="./assets/images/sql.png" class="grad" />
-
-                                
-                                        <div class="description">
-                                            <p class="p_f">SQL</p>
-                                            <p class="p_f">95%</p>
-
+                                            <div class="description">
+                                                <p class="p_f">Vanila JS</p>
+                                                <p class="p_f">95%</p>
 
                                             </div>
 
@@ -361,51 +353,15 @@
                                     <div class="card_outer third justify">
                                         <div class="extra">
 
-                                        <img src="./assets/images/css.png" class="grad" />
-
-                                
-                                        <div class="description">
-                                            <p class="p_f">CSS</p>
-                                            <p class="p_f">95%</p>
+                                            <img src="./assets/images/sql.png" class="grad" />
 
 
-
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-sm-4 col-12">
-                                    <div class="card_outer third justify">
-                                        <div class="extra">
-
-                                        <img src="./assets/images/css.png" class="grad" />
-
-                                
-                                        <div class="description">
-                                            <p class="p_f">Graphics Design</p>
-                                            <p class="p_f">99%</p>
+                                            <div class="description">
+                                                <p class="p_f">SQL</p>
+                                                <p class="p_f">95%</p>
 
 
-</div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-sm-4 col-12">
-                                    <div class="card_outer third justify">
-                                        <div class="extra">
-
-                                        <img src="./assets/images/csharp.png" class="grad" />
-
-                                
-                                        <div class="description">
-                                            <p class="p_f">C# (C-Sharp)</p>
-                                            <p class="p_f">95%</p>
-
-
-</div>
+                                            </div>
 
                                         </div>
 
@@ -414,33 +370,89 @@
                                 <div class="col-lg-4 col-sm-4 col-12">
                                     <div class="card_outer third justify">
                                         <div class="extra">
-                                        <img src="./assets/images/figma_5.png" class="grad" />
 
-                                
-                                        <div class="description">
-                                            <p class="p_f">Figma Design</p>
-                                            <p class="p_f">85%</p>
+                                            <img src="./assets/images/css.png" class="grad" />
 
 
-
-                                        </div></div>
-
-
-                                    </div>
-                                </div><div class="col-lg-4 col-sm-4 col-12">
-                                    <div class="card_outer third justify">
-                                        <div class="extra">
-                                        <img src="./assets/images/github1.png" class="grad" />
-
-                                
-                                        <div class="description">
-                                            <p class="p_f">Github Source Control</p>
-                                            <p class="p_f">90%</p>
+                                            <div class="description">
+                                                <p class="p_f">CSS</p>
+                                                <p class="p_f">95%</p>
 
 
 
+                                            </div>
                                         </div>
                                     </div>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-4 col-12">
+                                    <div class="card_outer third justify">
+                                        <div class="extra">
+
+                                            <img src="./assets/images/css.png" class="grad" />
+
+
+                                            <div class="description">
+                                                <p class="p_f">Graphics Design</p>
+                                                <p class="p_f">99%</p>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-4 col-12">
+                                    <div class="card_outer third justify">
+                                        <div class="extra">
+
+                                            <img src="./assets/images/csharp.png" class="grad" />
+
+
+                                            <div class="description">
+                                                <p class="p_f">C# (C-Sharp)</p>
+                                                <p class="p_f">95%</p>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-12">
+                                    <div class="card_outer third justify">
+                                        <div class="extra">
+                                            <img src="./assets/images/figma_5.png" class="grad" />
+
+
+                                            <div class="description">
+                                                <p class="p_f">Figma Design</p>
+                                                <p class="p_f">85%</p>
+
+
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-12">
+                                    <div class="card_outer third justify">
+                                        <div class="extra">
+                                            <img src="./assets/images/github1.png" class="grad" />
+
+
+                                            <div class="description">
+                                                <p class="p_f">Github Source Control</p>
+                                                <p class="p_f">90%</p>
+
+
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -454,25 +466,29 @@
 
                     </div>
                     <div class="navigation">
-                        <button class="nav_buttons_"><i class="fa fa-user "></i></button>
+                        <button class="nav_buttons_" onclick="goToAboutMe()"><i onclick="goToAboutMe()" class="fa fa-user white"></i></button>
 
-                        <button class="nav_buttons_"><i class="fa fa-graduation-cap"></i></button>
-                        <button class="nav_buttons">
+                        <button class="nav_buttons_" ><i onclick="gotoEducation()" class="fa fa-graduation-cap"></i></button>
+                     
+                        <button class="nav_buttons" onclick="gotoSkills()">
 
-                            <i class="fa fa-globe"></i>
-                        </button>
-                        <button class="nav_buttons_">
                             <i class="fa fa-th-large"></i>
                         </button>
-                        <button class="nav_buttons_">
+                        <button class="nav_buttons_" onclick="gotoGallery()">
+
+                           	
+<i class="fa fa-picture-o"></i>
+                        </button>
+                        <button class="nav_buttons_" onclick="gotoLove()">
 
                             <i class="fa fa-heart"></i>
                         </button>
 
 
                     </div>
-                    <button class="left_attached"><img src="./assets/images/left_iccon.png" /></button>
-                    <button class="right_attached"><img src="./assets/images/right_iccon.png" /></button>
+                    <button class="left_attached" onclick="gotoEducation()"><img src="./assets/images/left_iccon.png" /></button>
+                    <button class="right_attached" onclick="gotoGallery()"><img
+                            src="./assets/images/right_iccon.png" /></button>
                     <!-- <hr/> -->
                 </div>
             </div>
@@ -500,15 +516,16 @@
                                     <div class="card_outer third_ justify">
                                         <img src="./assets/images/web.png" class="grad" />
 
-                                
+
                                         <div class="description">
                                             <p class="p_f">Point of sale</p>
-                                            <p class="p_s black">A complete web based point of sale, inergrated with the Thrmal printer and the barcode scanner.</p>
+                                            <p class="p_s black">A complete web based point of sale, inergrated with the
+                                                Thrmal printer and the barcode scanner.</p>
                                             <button class="visit">Visit Page</button>
 
 
                                         </div>
-                                        
+
 
                                     </div>
                                 </div>
@@ -516,7 +533,7 @@
                                     <div class="card_outer third_ justify">
                                         <img src="./assets/images/web.png" class="grad" />
 
-                                
+
                                         <div class="description">
                                             <p class="p_f">Ambient Video Game Publishers</p>
                                             <p class="p_s black">Developed website for purchasing video games.</p>
@@ -532,7 +549,7 @@
                                     <div class="card_outer third_ justify">
                                         <img src="./assets/images/web.png" class="grad" />
 
-                                
+
                                         <div class="description">
                                             <p class="p_f">Quic movers website</p>
                                             <p class="p_f">95%</p>
@@ -543,12 +560,12 @@
 
                                     </div>
                                 </div>
-                               
-                               
 
-                               
 
-                               
+
+
+
+
 
                             </div>
 
@@ -560,17 +577,19 @@
 
                     </div>
                     <div class="navigation">
-                        <button class="nav_buttons_"><i class="fa fa-user "></i></button>
+                        <button class="nav_buttons_" onclick="goToAboutMe()"><i onclick="goToAboutMe()" class="fa fa-user white"></i></button>
 
-                        <button class="nav_buttons_"><i class="fa fa-graduation-cap"></i></button>
-                        <button class="nav_buttons_">
-
-                            <i class="fa fa-globe"></i>
-                        </button>
-                        <button class="nav_buttons">
+                        <button class="nav_buttons_" ><i onclick="gotoEducation()" class="fa fa-graduation-cap"></i></button>
+                        <button class="nav_buttons_" onclick="gotoSkills()">
                             <i class="fa fa-th-large"></i>
                         </button>
-                        <button class="nav_buttons_">
+                      
+                        <button class="nav_buttons" onclick="gotoGallery()">
+
+                           	
+<i class="fa fa-picture-o"></i>
+                        </button>
+                        <button class="nav_buttons_" onclick="gotoLove()">
 
                             <i class="fa fa-heart"></i>
                         </button>
@@ -578,7 +597,8 @@
 
                     </div>
                     <button class="left_attached"><img src="./assets/images/left_iccon.png" /></button>
-                    <button class="right_attached"><img src="./assets/images/right_iccon.png" /></button>
+                    <button class="right_attached" onclick="gotoHome()"><img
+                            src="./assets/images/right_iccon.png" /></button>
                     <!-- <hr/> -->
                 </div>
             </div>
@@ -591,7 +611,7 @@
             <div class="col-12 col-lg-12 aboutme_pic">
                 <div class="dark_board">
                     <div class="row">
-                        
+
                         <div class="col-12 col-lg-12 col-lg-12 text-center mb-4 p-4 ">
                             <img src="./assets/images/library.jpg" class="grad" />
                             <h5>Gallery</h5>
@@ -602,18 +622,18 @@
                                     <div class="container c2">
                                         <div class="container__info">
                                         </div>
-                                        
-                                       </div>
-
-                                
-                                       
 
                                     </div>
-                             
+
+
+
+
+                                </div>
+
                                 <div class="col-lg-6 col-sm-6 col-12">
                                     <div class="container c1">
                                         <div class="container__info">
-                                         <!-- <span><i class="fas fa-eye"></i>2350</span>
+                                            <!-- <span><i class="fas fa-eye"></i>2350</span>
                                          <span><i class="fas fa-comment-alt"></i>624</span>
                                          <span><i class="fas fa-download"></i>1470</span> -->
                                         </div>
@@ -630,60 +650,60 @@
                                         </di>
                                        </div> -->
 
-                                
-                                       
+
+
 
                                     </div>
-                                   
+
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-12">
                                     <div class="container c3">
                                         <div class="container__info">
                                         </div>
-                                        
-                                       </div>
+
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-12">
                                     <div class="container c4">
                                         <div class="container__info">
                                         </div>
-                                        
-                                       </div>
+
+                                    </div>
                                 </div>
-                               
+
                                 <div class="col-lg-4 col-sm-4 col-12">
                                     <div class="container c5">
                                         <div class="container__info">
                                         </div>
-                                        
-                                       </div>
+
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-12">
                                     <div class="container c6">
                                         <div class="container__info">
                                         </div>
-                                        
-                                       </div>
+
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-12">
                                     <div class="container c7">
                                         <div class="container__info">
                                         </div>
-                                        
-                                       </div>
+
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 col-sm-4 col-12">
                                     <div class="container c8">
                                         <div class="container__info">
                                         </div>
-                                        
-                                       </div>
+
+                                    </div>
                                 </div>
-                               
 
-                               
 
-                               
+
+
+
 
                             </div>
 
@@ -695,25 +715,27 @@
 
                     </div>
                     <div class="navigation">
-                        <button class="nav_buttons_"><i class="fa fa-user "></i></button>
+                        <button class="nav_buttons_" onclick="goToAboutMe()"><i class="fa fa-user white"></i></button>
 
-                        <button class="nav_buttons_"><i class="fa fa-graduation-cap"></i></button>
-                        <button class="nav_buttons_">
-
-                            <i class="fa fa-globe"></i>
-                        </button>
-                        <button class="nav_buttons">
+                        <button class="nav_buttons_" ><i onclick="gotoEducation()" class="fa fa-graduation-cap"></i></button>
+                        <button class="nav_buttons_" onclick="gotoSkills()">
                             <i class="fa fa-th-large"></i>
                         </button>
-                        <button class="nav_buttons_">
+                      
+                        
+                        <button class="nav_buttons" onclick="gotoGallery()">
+                            <i class="fa fa-picture-o"></i>
+                        </button>
+                        <button class="nav_buttons_" onclick="gotoLove()">
 
                             <i class="fa fa-heart"></i>
                         </button>
 
 
                     </div>
-                    <button class="left_attached"><img src="./assets/images/left_iccon.png" /></button>
-                    <button class="right_attached"><img src="./assets/images/right_iccon.png" /></button>
+                    <button class="left_attached" onclick="gotoSkills()"><img src="./assets/images/left_iccon.png" /></button>
+                    <button class="right_attached" onclick="gotoLove()"><img
+                            src="./assets/images/right_iccon.png" /></button>
                     <!-- <hr/> -->
                 </div>
             </div>
@@ -726,26 +748,30 @@
             <div class="col-12 col-lg-12 aboutme_pic">
                 <div class="dark_board ">
                     <div class="row">
-                       
+
                         <div class="col-12 col-lg-12 col-lg-12 text-center mb-4 p-4 ">
                             <!-- <img src="./assets/images/library.jpg" class="grad" /> -->
                             <h5 class="white">I love you all</h5>
-                            <p class="white">Please press like if you loved this portfolio</p>
+                            <p class="white">Please press like a million times if you loved my work...</p>
 
                             <div class="row">
                                 <div class="col-lg-6 col-sm-6 col-12 center">
-                                    <span class="love" id="animLove"><i id="taken" class="fa fa-heart white"></i></span>
-                                    
-                                 </div>
+
+                                    <span class="love" id="animLove"><i id="taken" class="fa fa-heart white"></i>
+                                    </span>
+                                    <br /> <smaLL class="white">Press me</small>
+
+
+                                </div>
                                 <div class="col-lg-6 col-sm-6 col-12">
                                     <span class="loveBig"><i id="loved" class="fa fa-heart white"></i></span>
-                             </div>
-                               
-                               
+                                </div>
 
-                               
 
-                               
+
+
+
+
 
                             </div>
 
@@ -757,17 +783,16 @@
 
                     </div>
                     <div class="navigation">
-                        <button class="nav_buttons_"><i class="fa fa-user "></i></button>
+                        <button class="nav_buttons_" onclick="goToAboutMe()"><i class="fa fa-user white"></i></button>
 
-                        <button class="nav_buttons_"><i class="fa fa-graduation-cap"></i></button>
-                        <button class="nav_buttons_">
-
-                            <i class="fa fa-globe"></i>
-                        </button>
-                        <button class="nav_buttons">
+                        <button class="nav_buttons_" ><i onclick="gotoEducation()" class="fa fa-graduation-cap"></i></button>
+                        <button class="nav_buttons_" onclick="gotoSkills()">
                             <i class="fa fa-th-large"></i>
                         </button>
-                        <button class="nav_buttons_">
+                        <button class="nav_buttons_" onclick="gotoGallery()">
+                            <i class="fa fa-picture-o"></i>
+                        </button>
+                        <button class="nav_buttons" onclick="gotoLove()">
 
                             <i class="fa fa-heart"></i>
                         </button>
@@ -775,7 +800,7 @@
 
                     </div>
                     <button class="left_attached"><img src="./assets/images/left_iccon.png" /></button>
-                    <button class="right_attached"><img src="./assets/images/right_iccon.png" /></button>
+                    <button class="right_attached"><img src="./assets/images/home.png" /></button>
                     <!-- <hr/> -->
                 </div>
             </div>
@@ -783,7 +808,7 @@
 
         </div>
     </div>
- 
+
 </body>
 <script src="./assets/js/jquery/dist/jquery.min.js"></script>
 <script src="./assets/css/bootstrap/dist/js/bootstrap.min.js"></script>

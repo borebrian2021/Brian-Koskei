@@ -83,11 +83,11 @@ html {
 
 }
 .nav_buttons_{
+
     height: 20px;
     width: 20px;
     border: 2px solid #162944;
     color: #7cbcfe !important;
-
     margin: 8px;
     background-color: #0b1a31;
     border-radius: 50px;
@@ -98,7 +98,6 @@ html {
     font-size:x-small;
     align-items: center;
     transition: all 0.3s ease;
-
 }
 .nav_buttons_:hover{
     height: 30px;
@@ -107,7 +106,6 @@ html {
     color: #0a192f;
     margin: 8px;
     background-color: #162944;
-    ;
     border-radius: 50px;
     padding: none;
     display: flex;
@@ -475,19 +473,7 @@ nav>.nav_right .logo {
 }
 
 .block {
-    position: relative;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #162844;
-    border-top-right-radius: 300px;
-    border-bottom-right-radius: 5px;
-    /* background-image: url(../images/protruding.svg); */
-    padding-left: 3%;
-    color: #7cbcfe !important;
-
-
+    display: none;
 }
 
 

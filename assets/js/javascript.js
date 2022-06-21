@@ -9,7 +9,7 @@ $(document).ready(function () {
   $('#education').hide();
   $('#skills').hide();
   $('#projects').hide();
-  // $('#gallery').hide();
+  $('#love').hide();
   $('#aboutMe').hide();
 
 
@@ -41,6 +41,19 @@ $(document).ready(function () {
 
 });
 
+function gotoHome(){
+  $('#love').fadeOut();
+  setTimeout(() => {
+    $('#welcome').fadeIn();
+
+
+  }, "1000");
+  $('#education').hide();
+  $('#skills').hide();
+  $('#projects').hide();
+  $('#gallery').hide();
+
+}
   function showEducation(){
     $('#welcome').fadeOut();
     setTimeout(() => {
@@ -51,7 +64,9 @@ $(document).ready(function () {
     $('#education').hide();
     $('#skills').hide();
     $('#projects').hide();
-    // $('#gallery').hide();
+    $('#gallery').hide();
+  $('#love').fadeOut();
+
   
 }
 function goHome(){
@@ -64,7 +79,24 @@ function goHome(){
   $('#education').hide();
   $('#skills').fadeOut();
   $('#projects').fadeOut();
-  // $('#gallery').fadeOut();
+  $('#gallery').fadeOut();
+  $('#love').fadeOut();
+
+
+}
+function goToAboutMe(){
+  $('#aboutMe').fadeOut();
+  setTimeout(() => {
+    $('#welcome').fadeIn();
+
+
+  }, "1000");
+  $('#education').hide();
+  $('#skills').fadeOut();
+  $('#projects').fadeOut();
+  $('#gallery').fadeOut();
+  $('#love').fadeOut();
+
 
 }
 
@@ -72,29 +104,55 @@ function gotoEducation(){
   $('#aboutMe').fadeOut();
   $('#skills').fadeOut();
   $('#projects').fadeOut();
-  // $('#gallery').fadeOut();
+  $('#gallery').fadeOut();
+  $('#love').fadeOut();
+
   setTimeout(() => {
     $('#education').fadeIn();
 
 
+
   }, "1000");
- 
+}
+function gotoLove(){
+  $('#aboutMe').fadeOut();
+  $('#skills').fadeOut();
+  $('#education').fadeOut();
+  $('#projects').fadeOut();
 
 
+  $('#gallery').fadeOut();
+  setTimeout(() => {
+    $('#love').fadeIn();
+  }, "1000");
 }
 function gotoSkills(){
   $('#aboutMe').fadeOut();
   $('#education').hide();
   $('#projects').fadeOut();
-  // $('#gallery').fadeOut();
+  $('#gallery').fadeOut();
+  $('#love').fadeOut();
+
   setTimeout(() => {
     $('#skills').fadeIn();
 
 
   }, "1000");
+  
  
 
 
+}
+function gotoGallery(){
+  $('#aboutMe').fadeOut();
+  $('#education').hide();
+  $('#projects').fadeOut();
+  $('#skills').fadeOut();
+  $('#love').fadeOut();
+
+  setTimeout(() => {
+    $('#gallery').fadeIn();
+  }, "1000");
 }
 
 
