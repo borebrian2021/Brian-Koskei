@@ -230,3 +230,53 @@
   #love{
     background:#0a192f;
   }
+
+  #heart { 
+    position: relative; 
+    width: 200px; 
+    height: 190px; 
+    margin:30px;
+} 
+
+#heart:before, #heart:after { 
+    position: absolute;
+    content: "";
+    left: 143px;
+    top: 0;
+    width: 145px;
+    height: 200px;
+    background: #7cbcfe;
+    border-radius: 51px 50px 0 0;
+    transform: rotate(314deg);
+    transform-origin: 0 100%;
+}
+
+
+#heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+.love{
+    background-color: #0a192f;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
+}
+.loveBig{
+    font-size: 200px;
+}
+.love:hover{
+    background-color: #0a192f;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 16px;
+}

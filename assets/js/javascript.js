@@ -144,3 +144,20 @@ $(document).on('submit', '#questions', function () {
 
 
 
+$(document).ready(function(){
+  $('.title').click(function(){
+    $('.container').addClass('open');
+  });
+  
+  
+  $('.close').click(function(){
+    $('.container').removeClass('open');
+  });
+});
+
+//Animating love
+var elements = document.getElementsByClassName('element');
+var target = document.getElementsByClassName('target')[0];
+var button = document.getElementById('animLove');
+var xT = target.offsetLeft;
+var yT = target.offsetTop;
