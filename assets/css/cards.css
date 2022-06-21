@@ -159,7 +159,7 @@
     background-position: center;
     background-size: cover;
     width: 95%;
-    height: 400px;
+    height: 300px;
     position: relative;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
     margin: 8px;
@@ -216,7 +216,7 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom:120px;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 .dark_board {
     width: 99%;
@@ -225,7 +225,7 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom:120px;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
   #love{
     background:#0a192f;
