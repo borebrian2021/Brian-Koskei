@@ -34,7 +34,7 @@ html {
     width: 96.8%;
     bottom: 120;
     height: 40px;
-    background-color: #7B241C;
+    background-color:transparent;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -47,7 +47,7 @@ html {
     height: 30px;
     width: 30px;
     border: none;
-    color: white !important;
+    color: #7cbcfe !important;
     margin: 15px;
     background-color: #e84e89;
     border-radius: 50px;
@@ -66,7 +66,7 @@ html {
     border: none;
     color: white !important;
     margin: 15px;
-    background-color: #7B241C;
+    background-color: #0a192f;
     border-radius: 50px;
     padding: none;
     display: flex;
@@ -96,8 +96,8 @@ html {
 .nav_buttons_:hover{
     height: 30px;
     width: 30px;
-    border: 1px solid #7B241C;
-    color: #7B241C;
+    border: 1px solid #0a192f;
+    color: #0a192f;
     margin: 8px;
     background-color: white;
     border-radius: 50px;
@@ -108,15 +108,7 @@ html {
     font-size:x-small;
     align-items: center;
 }
-.white_board {
-    width: 99%;
-    height: auto;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-bottom:120px;
-    opacity: 0.9;
-}
+
 
 .left_attached {
     height: 30px;
@@ -142,7 +134,7 @@ html {
 
 .hide_desc {
     display: none;
-    color: white;
+    color: #7cbcfe;
 }
 
 .left_attached:hover {
@@ -202,7 +194,7 @@ html {
 * {
 
     font-family: Futura;
-    /* color: #7B241C; */
+    /* color: #0a192f; */
 }
 
 *:focus {
@@ -210,22 +202,26 @@ html {
 }
 
 body {
-    background-image: url(../images/bg_upside.svg);
+    /* background-image: url(../images/bg_upside.svg); */
+    background-color: #0A192F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23162844' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23162844' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23142540' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23162844' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2311223b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23162844' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%230f1f37' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23162844' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%230c1c33' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23162844' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%230a192f' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23162844' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
 }
 .year{
-    border-right: white 1px solid;
+    border-right: #7cbcfe 1px solid;
     margin:5px;
     padding-right: 5px;
     transition: all 0.5s ease;
 }
 .year:hover{
-    border-right: white 1px solid;
+    border-right: #7cbcfe 1px solid;
     margin:5px;
     padding-right: 5px;
     font-size: x-large;
 }
 .date{
-    background-color: white;
+    background-color: #7cbcfe;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     padding: 5px;
     border-radius: 15px;
@@ -241,7 +237,7 @@ body {
     background-repeat: no-repeat;
 }
 .year h3,h4{
-    color: white;
+    color: #7cbcfe;
     font-family: Futura;
     margin: unset;
     margin-left: 15px;
@@ -251,7 +247,7 @@ text-align: left;
 }
 .description >  .p_f{
     font-size: x-small;
-    color: white;
+    color: #7cbcfe;
     margin: 3px;
 
 }
@@ -264,14 +260,14 @@ text-align: left;
 
     height: 15px;
     width: 15px;
-    background-color: #7B241C;
+    background-color: #0a192f;
     border-radius: 50%;
 }
 
 nav {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #7c344b;
+    background-color: #162844;
     height: 50px;
     width: 100%;
     padding: 10px;
@@ -293,7 +289,7 @@ nav {
 .nav .nav_left p img {
 
     float: left;
-    color: white;
+    color: #7cbcfe;
 
 }
 
@@ -325,12 +321,12 @@ nav>.nav_right .logo {
 }
 
 .white {
-    color: white;
+    color: #7cbcfe;
 
 }
 
 .white- {
-    color: white;
+    color: #7cbcfe;
     font-size: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin: 10%;
@@ -339,7 +335,7 @@ nav>.nav_right .logo {
 }
 
 .right_line {
-    border-right: 2px solid #7B241C;
+    border-right: 2px solid #0a192f;
 }
 
 #name2 {
@@ -358,7 +354,7 @@ nav>.nav_right .logo {
 
 
 ::-webkit-scrollbar-thumb {
-    background: #7B241C;
+    background: #0a192f;
 }
 
 
@@ -380,7 +376,7 @@ nav>.nav_right .logo {
 
 .hire {
     background-color: white;
-    color: #7B241C;
+    color: #0a192f;
     padding: 5px;
     width: 30%;
     border: 1px solid white;
@@ -436,7 +432,7 @@ nav>.nav_right .logo {
 .name_input {
     padding: 7px;
     width: 50%;
-    /* border: 1px solid #7B241C; */
+    /* border: 1px solid #0a192f; */
     border: none;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
@@ -470,14 +466,12 @@ nav>.nav_right .logo {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #7B241C;
-    border-top-right-radius: 5px;
+    background-color: #162844;
+    border-top-right-radius: 300px;
     border-bottom-right-radius: 5px;
-    background-image: url(../images/protruding.svg);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    padding-top: 5%;
+    /* background-image: url(../images/protruding.svg); */
     padding-left: 3%;
-    color: white !important;
+    color: #7cbcfe !important;
 
 
 }
@@ -487,14 +481,14 @@ nav>.nav_right .logo {
 
 hr {
     margin: 0;
-    border: 1px solid #7B241C;
+    border: 1px solid #0a192f;
 }
 .boutme_pic{
     display: none;
     
 }
 .nav_right {
-    color: white;
+    color: #7cbcfe;
 }
 
 
@@ -513,16 +507,16 @@ hr {
 }
 
 #remarks {
-    background-color: #7B241C;
+    background-color: #0a192f;
     width: 95%;
     padding-top: 15px;
     margin: 15px;
     border-radius: 15px;
-    color: white !important;
+    color: #7cbcfe !important;
 }
 
 .scoreB {
-    color: #7B241C;
+    color: #0a192f;
     text-shadow: -1px 1px 0 #ffffff,
         1px 1px 0 #ffffff,
         1px -1px 0 #ffffff,

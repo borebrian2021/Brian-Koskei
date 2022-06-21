@@ -23,29 +23,27 @@
         z-index: 1000;
     }
     .white- {
-        color: white;
+        color:#03d3c0;
         font-size: 15px;
 
     }
 
     body {
-        background-image: url(../images/bg_downside.svg);
+        /* background-image: url(../images/bg_downside.svg); */
 
     }
 
     .block {
         position: absolute;
-        height: 90%;
-        width: 70%;
+        width: 100%;
         display: flex;
         justify-content: center;
         text-align: center;
-        background-color: #7B241C;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        background-image: url(../images/protruding.svg);
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-        padding-top: 20%;
+        background-color: transparent;
+        ;
+        border-top-right-radius: 300px;
+        border-bottom-right-radius300px;
+        /* padding-top: 20%; */
         color: white !important;
 
 
@@ -82,7 +80,7 @@
 
     .hire {
         background-color: white;
-        color: #7B241C;
+        color: #0a192f;
         padding: 8px;
         width: 30%;
         border: 1px solid white;
@@ -94,12 +92,12 @@
 
     .image_section {
         display: block;
-        padding: 10px;
+    
         /* padding-left: 80px; */
         /* padding-top: 120px; */
-        display: flex !important;
-        justify-content: right !important;
-        align-items: right !important;
+   
+        justify-content: center !important;
+        align-items: center !important;
         width: 100%;
 
     }
@@ -138,7 +136,7 @@
     .name_input {
         padding: 10px;
         width: 50%;
-        /* border: 1px solid #7B241C; */
+        /* border: 1px solid #0a192f; */
         border: none;
         border-radius: 6px;
 
