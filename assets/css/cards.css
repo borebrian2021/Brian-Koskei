@@ -132,7 +132,7 @@
     background: url('/assets/images/studio.jpg');
 }
 .c8{
-    background: url('/assets/images/studio.jpg');
+    background: url('/assets/images/horizon.jpg');
 }
 .c5{
     background: url('/assets/images/snow.jpg');
@@ -145,7 +145,7 @@
     height: 400px;
     position: relative;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
-    margin: 13px;
+    margin: 8px;
   }
   .container .container__info {
     position: absolute;
@@ -192,3 +192,5 @@
   .container .container__profile p b {
     font-style: italic;
   }
+
+  .love
