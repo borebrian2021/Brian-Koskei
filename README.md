@@ -15,11 +15,10 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This is a straightforward UI-driven project. It is used to assess students' understanding of JavaScript. They respond to javascript questions and receive scores and comments.</p>
+ <p>This is a simple, user-interface-driven portfolio. It explains more about my abilities and what I enjoy doing.</p>
 
-## Landing page
-This is the page where students' names are collected. In order to progress.
-[Go Back to the top](#Screenshot)
+
+
 
 ## Instructions
 This page gives the instructions of the test.
@@ -31,13 +30,13 @@ This page gives the instructions of the test.
  
  ### Installation Process
  ****
-* Clone to this repo : git clone https://github.com/borebrian2021/Moringa-Quiz-Project-Javascript.git
+* Clone to this repo git@github.com:borebrian2021/Brian-Koskei.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
  [Go Back to the top](#Screenshot)
 ### Live Link
-- Click this link to view the live application https://borebrian2021.github.io/Moringa-Quiz-Project-Javascript/
+- Click this link to view the live application https://borebrian2021.github.io/Brian-Koskei/
 <!-- ### Figma Link
 - Click this link to view the figma design of this project https://www.figma.com/file/MYat56ANGYAA2FQpkcapnx/Untitled?node-id=0%3A1 -->
 ### Technology  Used
