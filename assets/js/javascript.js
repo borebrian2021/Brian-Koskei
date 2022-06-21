@@ -156,8 +156,25 @@ $(document).ready(function(){
 });
 
 //Animating love
-var elements = document.getElementsByClassName('element');
-var target = document.getElementsByClassName('target')[0];
+var element = document.getElementById('animLove');
+var target = document.getElementsByClassName('loveBig')[0];
 var button = document.getElementById('animLove');
 var xT = target.offsetLeft;
 var yT = target.offsetTop;
+button.addEventListener('click', function() {
+  // for (var i = 0; i < 100; i++) {
+    // store the elements coordinate
+    var xE = element.offsetLeft;
+    var yE = element.offsetTop;
+    alert(yE)
+    // set elements position to their position for smooth animation
+    element.style.left = xE + 'px';
+    element.style.top = yE + 'px';
+    // set their position to the target position
+    // the animation is a simple css transition
+    element.style.display = "absolute";
+    element.style.left = xT + 'px !important';
+
+    element.style.top = yT + 'px !important';
+  // }
+});

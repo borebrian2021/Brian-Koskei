@@ -22,6 +22,11 @@ html {
 .grad{
     height: 30px;
     margin-bottom: 20px;
+    transition: all 0.1s ease;
+}
+.grad:hover{
+    height:50px;
+    margin-bottom: 50px;
 }
 .center{
     text-align: center;
@@ -250,6 +255,12 @@ text-align: left;
 }
 .description >  .p_f{
     font-size: x-small;
+    color: #7cbcfe;
+    margin: 3px;
+    transition: all ease 0.1s;
+}
+.description >  .p_f :hover{
+    font-size: large;
     color: #7cbcfe;
     margin: 3px;
 
