@@ -1,10 +1,9 @@
 # Portfolio
 ## By Brian Kimutai Koskei
 ## Screenshot
- ![image](./assets/images/landing.png)
+ ![image](./assets/images/portfoliopage.PNG)
  ## Table of Content
  - [LandingPage](#Landing-page)
- - [Instructions](#Instructions)
  - [Requirement](#Requirements)
 
  - [Installation Process](#installation-Process)
@@ -15,14 +14,11 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This is a simple, user-interface-driven portfolio. It explains more about my abilities and what I enjoy doing.</p>
+ <p>This is a simple, user-interface-driven portfolio. It explains more about my abilities and skills.</p>
 
 
 
 
-## Instructions
-This page gives the instructions of the test.
-[Go Back to the top](#Screenshot)
 
  ###  Requirements
  * Access to  a computer or any other accessory such as a phone
